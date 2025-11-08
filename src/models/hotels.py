@@ -11,4 +11,3 @@ class HotelsOrm(Base):
     title: Mapped[str] = mapped_column(String(100))
     name: Mapped[str]
     location: Mapped[str]
-
